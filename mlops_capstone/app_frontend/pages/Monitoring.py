@@ -14,7 +14,7 @@ st.markdown("### Record of Inference Results")
 st.caption("A table containing metadata about each inference request made.")
 
 # Logic for inference metadata table
-df = pd.read_csv(r'/home/ubuntu/certified-developer/MLOps_Professional/mlops_capstone/store/outputs/robot_maintenance/monitoring.csv')
+df = pd.read_csv(r'/home/ubuntu/mlops/mlops_capstone/store/outputs/robot_maintenance/monitoring.csv')
 df
 
 st.divider()
